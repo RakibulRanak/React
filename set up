@@ -12,5 +12,5 @@ create my js(ex:app.js) files for compilation js files
     <script src="/scripts/app.js"></script>
 6. yarn init
 7. npm install -g babel-cli (install babel)
-8. yarn add babel-preset-react babel-preset-env (install locally babel dependencies)
+8. yarn add babel-preset-react babel--preset-env (install locally babel dependencies)
 9. babel src/app.js --out-file=public/scripts/app.js -presets=env,react --watch
