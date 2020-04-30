@@ -2,11 +2,15 @@ my set up
 1. Install nodejs
 2. npm install -g yarn
 3. npm install -g live-server (to run : live-server foldername)
-4. Create a folder and set up environment as follows:
-
-5. <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
+4. Create a folder for the project and set up environment as follows:
+--create e public folder inside project amd in public create html files,in public create scripts folder and inside that 
+create my js(ex:app.js) files for compilation js files
+--create another folder (src) inside that create myjs real files that are too be compiled (ex:app.js)
+5.(inside html body-react and react dom cdn , myjs file )
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="/scripts/app.js"></script>
 6. yarn init
 7. npm install -g babel-cli (install babel)
 8. yarn add babel-preset-react babel-preset-env (install locally babel dependencies)
+9. babel src/app.js --out-file=public/scripts/app.js -presets=env,react --watch
