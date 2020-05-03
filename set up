@@ -1,7 +1,7 @@
 my set up
 1. Install nodejs
 2. npm install -g yarn
-3. npm install -g live-server (to run : live-server foldername)
+3. npm install -g live-server (to run : live-server foldername (ex: public which is created at step 4))
 4. Create a folder for the project and set up environment as follows:
 --create e public folder inside project amd in public create html files,in public create scripts folder and inside that 
 create my js(ex:app.js) files for compilation js files
