@@ -1,6 +1,6 @@
 my set up
 1. Install nodejs
-2. npm install -g yarn
+2. npm install -g yarn ( if you use yarn)
 3. npm install -g live-server (to run : live-server foldername (ex: public which is created at step 4))
 4. Create a folder for the project and set up environment as follows:
 --create e public folder inside project amd in public create html files,in public create scripts folder and inside that 
@@ -10,24 +10,28 @@ create my js(ex:app.js) files for compilation js files
     <script crossorigin src="https://unpkg.com/react@16/umd/react.production.min.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js"></script>
     <script src="/scripts/app.js"></script>
-6. yarn init
-7. npm install -g babel-cli (install babel)
-8. yarn add babel-preset-react babel--preset-env (install locally babel dependencies)
+6. npm init
+7. npm install babel-cli (to run babel from cli)
+8. npm i babel-preset-react babel--preset-env (install locally babel dependencies)
 9. babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 10. Extension --- babel es6/es7
 
 Update
-But it is better to install 7 or other dependancies as local
+But it is better to install dependancies as local
 
-11.Install webpack -> yarn add webpack
+11.Install webpack -> npm i webpack
+for webpack
+    replace->
+    i)babel-preset-react > @babel/preset-react
+    ii)babel-preset-env > @babel/preset-env
 12. Config webpack and runscripts-> see file 12.1,12.2
-13. yarn add react react-dom (as webpack will give support of them from now)
-14. yarn add babel-core babel-loader
+13. npm i react react-dom (as webpack will give support of them from now)
+14. npm i babel-core (to run babel from webpack) babel-loader (to have the ability for webpack to run babel )
 15. config babel in webpack with presets ,(have a .babelrc file in folder containing)
     {
-        "presets":[
-            "env",
-            "react"
-        ]
-    }
-16. yarn add webpack-cli (to run yarn run build)
+    "presets": [
+        "@babel/preset-env",
+        "@babel/preset-react"
+    ]
+}
+16. npm i webpack-cli (to run yarn run build)
