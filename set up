@@ -39,3 +39,12 @@ for webpack
     ]
 }
 16. npm i webpack-cli (to run yarn run build)
+
+17 .npm i webpack-dev-server  (this handle also live server)
+18. npm i babel-plugin-transform-class-properties (this pulgin make life easier with 'this' key binding and more ) example is shown in 
+    18.1 file,
+    for this pulgin , in .babelrc , these line should be added:
+    
+     "plugins": [
+        "transform-class-properties"
+    ]
