@@ -48,3 +48,5 @@ for webpack
      "plugins": [
         "transform-class-properties"
     ]
+19. npm i react-modal (this modal is useful to pass childprops) docs are here->
+    https://github.com/reactjs/react-modal
