@@ -21,4 +21,12 @@ But it is better to install 7 or other dependancies as local
 
 11.Install webpack -> yarn add webpack
 12. Config webpack and runscripts-> see file 12.1,12.2
-
+13. yarn add react react-dom (as webpack will give support of them from now)
+14. yarn add babel-core babel-loader
+15. config babel in webpack with presets ,(have a .babelrc file in folder containing)
+    {
+        "presets":[
+            "env",
+            "react"
+        ]
+    }
