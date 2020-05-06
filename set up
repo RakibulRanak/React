@@ -30,3 +30,4 @@ But it is better to install 7 or other dependancies as local
             "react"
         ]
     }
+16. yarn add webpack-cli (to run yarn run build)
