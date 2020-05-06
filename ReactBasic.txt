@@ -4,7 +4,7 @@ React is a JavaScript library (not a framework) that creates user interfaces (UI
 code. You can use it to help build single page applications and mobile apps, or to build complex apps if you utilise it with other 
 libraries.React and React-dom renders react component to the browser
 
-Jsx
+Jsx (Javascript XML)
 ---
 JSX is a way to write JS objects in way that looks like HTML*. It is easier to write a thing that looks like the thing you are trying to 
 define rather than writing wierd JS that you have to mentally translate into the thing you want it to be.All you’re doing is writing out 
