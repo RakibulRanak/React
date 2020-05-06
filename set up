@@ -15,3 +15,10 @@ create my js(ex:app.js) files for compilation js files
 8. yarn add babel-preset-react babel--preset-env (install locally babel dependencies)
 9. babel src/app.js --out-file=public/scripts/app.js --presets=env,react --watch
 10. Extension --- babel es6/es7
+
+Update
+But it is better to install 7 or other dependancies as local
+
+11.Install webpack -> yarn add webpack
+12. Config webpack and runscripts-> see file 12.1,12.2
+
