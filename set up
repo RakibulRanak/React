@@ -24,8 +24,12 @@ for webpack
     replace->
     i)babel-preset-react > @babel/preset-react
     ii)babel-preset-env > @babel/preset-env
+    
+    No need->
+    i)babel-cli
+    
 12. Config webpack and runscripts-> see file 12.1,12.2
-13. npm i react react-dom (as webpack will give support of them from now)
+13. npm i react react-dom (as webpack will give support of them from now,so html file no need to inlude them by manual)
 14. npm i babel-core (to run babel from webpack) babel-loader (to have the ability for webpack to run babel )
 15. config babel in webpack with presets ,(have a .babelrc file in folder containing)
     {
