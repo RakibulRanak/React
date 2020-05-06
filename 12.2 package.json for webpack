@@ -5,19 +5,19 @@
   "author": "Andrew Mead",
   "license": "MIT",
   "scripts": {
-    "serve": "live-server public/",
-    "build": "webpack --watch"
+    "build": "webpack --watch",
+    "build-server": "webpack-dev-server"
   },
   "dependencies": {
     "@babel/core": "^7.9.6",
     "@babel/preset-env": "^7.9.6",
     "@babel/preset-react": "^7.9.4",
     "babel-loader": "^8.1.0",
-    "live-server": "^1.2.1",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "validator": "^13.0.0",
-    "webpack": "^4.43.0"
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.10.3"
   },
   "description": "",
   "devDependencies": {
