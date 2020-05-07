@@ -50,3 +50,13 @@ for webpack
     ]
 19. npm i react-modal (this modal is useful to pass childprops) docs are here->
     https://github.com/reactjs/react-modal
+    
+20. npm i css-loader --save-dev (The css-loader interprets @import and url() like import/require() and will resolve them.)
+21. npm i style-loader --save-dev (Inject CSS into the DOM)
+->for these two loader webpack rule has to config as
+     rules: [
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader'],
+      },
+    ],
