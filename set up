@@ -81,3 +81,5 @@ for webpack
     ],
 
 24. npm i normalize.css --save-dev (to make all browser same css default)
+
+25.npm i react-router-dom  (routing react app for single app application)
