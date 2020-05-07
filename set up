@@ -71,3 +71,13 @@ for webpack
     
  23. npm  i node-sass --save-dev (scss and sass converter to css)
  
+ --> so the common config for css and scss is->
+ 
+ rules: [
+      {
+        test: /\.s?css$/,
+        use: ['style-loader', 'css-loader','sass-loader'],
+      },
+    ],
+
+24. npm i normalize.css --save-dev (to make all browser same css default)
