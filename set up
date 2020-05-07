@@ -60,3 +60,14 @@ for webpack
         use: ['style-loader', 'css-loader'],
       },
     ],
+ 22. npm i sass-loader --save-dev (scss and sass loader),
+    for that in webpack rules-
+    rules: [
+      {
+        test: /\.scss$/,
+        use: ['style-loader', 'css-loader','sass-loader'],
+      },
+    ],
+    
+ 23. npm  i node-sass --save-dev (scss and sass converter to css)
+ 
