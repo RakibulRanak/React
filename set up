@@ -86,4 +86,6 @@ for webpack
 26.npm i @babel/plugin-transform-runtime --save-dev  (async-await supports enabling -- in .babelrc
     add--
     "@babel/plugin-transform-runtime" in plugins
- 
+    
+ 27. npm i redux ( easier state management accross react components )
+     read documentation -> https://redux.js.org/introduction/getting-started
