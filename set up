@@ -89,3 +89,8 @@ for webpack
     
  27. npm i redux ( easier state management accross react components )
      read documentation -> https://redux.js.org/introduction/getting-started
+     
+ 28. npm i uuid (to generate random id in code)
+ 29 . npm i @babel/plugin-proposal-object-rest-spread (for object spreading ,ex: ...obj)
+    for this plugin in .babelrc>plugins
+    > @babel/plugin-proposal-object-rest-spread
